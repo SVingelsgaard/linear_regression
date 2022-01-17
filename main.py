@@ -23,7 +23,7 @@ for _ in range(20):
 
     linear.fit(x_train, y_train)
     last = linear.score(x_test, y_test)
-    #print(linear.score(x_test, y_test))
+    print(linear.score(x_test, y_test))
 
     if last > best:
         best = last
